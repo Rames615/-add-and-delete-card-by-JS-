@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>une site sample</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/nav.css" />
+    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="/assets/footer.css" />
+  </head>
+  <body>
+    <header class="hero" id="hero">
+      <h1>Cours de JavaScript</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#cours">Cours</a></li>
+        <li><a href="#plus">Cours +</a></li>
+        <li><a href="#contact">Contact +</a></li>
+      </ul>
+    </nav>
+    <main>
+        
+      <!-- **************************section Cours*************************** -->
+      <section>
+        <h2 id="cours">Cours</h2>
+        <div class="cards-container">
+          <div class="card">
+            <h3>Introduction à JavaScript</h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 1" />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea ipsum
+              in, omnis molestiae pariatur quibusdam soluta. Adipisci ut iste
+              illo porro dicta magnam tempora! Consequuntur voluptatum deserunt
+              similique velit repellat.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Les bases du langage</h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 2" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
+              voluptas iste accusamus explicabo vel? Sint placeat iure, nam
+              sequi enim assumenda quidem repellendus tenetur eius veritatis
+              velit, cum quibusdam exercitationem.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Manipulation du DOM</h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 3" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+              laboriosam accusamus nisi aut vel necessitatibus debitis ullam
+              quas nostrum nam delectus aliquid, consequuntur repellendus
+              doloremque, deserunt dolor quo quaerat rerum!
+            </p>
+          </div>
+          <div class="card">
+            <h3>Événements et interactions</h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 4" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+              iste? Iusto a praesentium soluta deleniti sunt facere voluptas
+              dolorem ipsum quae fuga corrupti illum eum voluptatem, accusantium
+              distinctio rerum aspernatur.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- **************************section cours avancé*************************** -->
+      <section>
+        <h2 id="plus">Cours avancés</h2>
+        <div class="horizontal-cards">
+          <div class="horizontal-card">
+            <h3></h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 4" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              facilis, cumque magni perspiciatis dignissimos eos aliquid
+              assumenda cupiditate dolore laboriosam, dolor ex? Amet ad illo
+              recusandae quos, beatae error alias!
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <h3></h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 4" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              hic, enim officia deserunt ullam illo nihil sint! Et quae dicta,
+              modi reprehenderit tempora quia quaerat numquam quas id
+              consequatur repellendus.
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <h3></h3>
+            <img src="https://picsum.photos/200/300?random=2" alt="Image 4" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
+              consectetur hic possimus, maiores nihil delectus dolorem ipsa
+              soluta eius ex saepe! Ad ea sequi officia, distinctio quis nemo
+              asperiores itaque.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- **************************section contact*************************** -->
+     <section>
+        <fieldset>
+            <h2>Contactez-nous</h2>
+            <form action="" class="contact-form" id="contact">
+              
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required />
+              <label for="name">Prénom</label>
+              <input type="text" id="name" name="name" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+    
+              <button type="submit">Envoyer</button>
+            </form>
+          </fieldset>
+     </section>
+      <section>
+        <footer>
+          <nav>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#cours">Cours</a></li>
+              <li><a href="#plus">Cours +</a></li>
+              <li><a href="#contact">Contact </a></li>
+            </ul>
+          </nav>
+          <p>2025:@Toute les droit Réservé à site cours</p>
+        </footer>
+      </section>
+    </main>
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
