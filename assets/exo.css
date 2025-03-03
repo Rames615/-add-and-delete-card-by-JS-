@@ -31,14 +31,16 @@ body {
 
 .parent-div {
   position: relative;
-  background: rgb(14, 187, 26);
+   background: #0f9ca9;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px #000;
-  width: 80%;
+  width: 100%;
   max-width: 600px;
   margin-top: 20px;
+  
 }
+
 .button-container {
   position: absolute;
   top: 10px;

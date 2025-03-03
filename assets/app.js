@@ -14,24 +14,19 @@ function ajouterCard(e) {
     const paragraph = document.createElement("p");
   
     paragraph.textContent =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    ;
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
     addCard.appendChild(image);
     addCard.appendChild(paragraph);
     section.appendChild(addCard);
   
-   return addCard
   }
  
   ajouter.addEventListener("click", ajouterCard);
 
-  function supprimerCard() {
-    const cards = document.querySelectorAll("#parent");
-    if (cards.length > 0) {
-        section.removeChild(cards[cards.length - 1]); // Supprime la dernière carte ajoutée
-    }
-}
-supprimer.addEventListener("click", supprimerCard);
+
+  
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 
